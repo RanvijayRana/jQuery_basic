@@ -1,0 +1,75 @@
+:root {
+	font-size: 16px;
+}
+
+.screenSize {
+	background-color: #cc99ff;
+	height: 97vh;
+	box-sizing: border-box;
+	border: solid 5px blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.collapse {
+	height: 10vh;
+	width: 30%;
+	box-sizing: border-box;
+	border: solid 5px black;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.collapse:hover {
+	background-color: pink;
+}
+
+.navBar {
+	height: 10vh;
+	width: 30%;
+	box-sizing: border-box;
+	border: solid 5px green;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navBar:hover {
+	background-color: pink;
+}
+
+.modal {
+	height: 10vh;
+	width: 30%;
+	box-sizing: border-box;
+	border: solid 5px yellow;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal:hover {
+	background-color: pink;
+}
+
+@media screen and (min-width : 900px){
+
+	.screenSize {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}	
+}
+
+@media screen and (max-width : 899px){
+	.screenSize {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}	
+}
+
