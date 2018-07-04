@@ -33,22 +33,79 @@
 	background-color: white;
 }
 
-.modal-header {
+.overlay {
+	display: none;
+	position: absolute;
+	background-color: white;
+	top:15vh;
+	left:15vw;
 	height: 60vh;
 	width: 60vw;
 	border: solid 5px black;
 }
 
-#overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
+.modalHeading {
+	height: 20%;
+	border: solid 5px blue;
+	
 }
+.heading{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.heading:after  {
+	width: 80%;
+	height: 2px;
+	content: "";
+	background-color: red;
+	//left: 50%;
+	transform: translate(10%,0);
+	position: absolute;
+	top: 20.8%;
+}
+.modalContent {
+	height: 50%;
+	border: solid 5px blue;
+	
+}
+.modalContent:after  {
+	width: 80%;
+	height: 1px;
+	content: "";
+	background-color: black;
+	//left: 50%;
+	transform: translate(10%,0);
+	position: absolute;
+	top: 65%;
+}
+.modalFooter {
+	height: 20%;
+	border: solid 5px blue;
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+.footerContainer{
+	margin-left: 10px;
+	width: 95%;
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	border: solid 5px red;
+}
+.footer{
+	//margin-left: 10px;
+	width: 95%;
+	height: 100%;
+	display: flex;
+	//flex-direction: row-reverse;
+	justify-content: space-around;
+}
+
+
