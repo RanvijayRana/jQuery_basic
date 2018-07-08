@@ -1,0 +1,91 @@
+:root {
+	font-size: 16px;
+}
+
+.screenSize {
+	background-color: #cc99ff;
+	height: 97vh;
+	box-sizing: border-box;
+	border: solid 5px blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.collGroupContainer1{
+	display: flex;
+	width: 98vw;
+	flex-direction: column;
+	border: solid 2px white;
+}
+
+.collGroup {
+	height: 8vh;
+	width: 92%;
+	margin: 1vh 2vw 0vh 2vw;
+	padding: 0vh 2vw 0vh 2vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: solid 1px blue;
+}
+
+.collSubGroup1 {
+	width: 92%;
+	margin: 0vh 2vw 0vh 2vw;
+	padding: 0vh 2vw 0vh 2vw;
+	display: none;
+	border: solid 1px red;
+}
+
+.collGroupContainer2{
+	display: flex;
+	width: 98vw;
+	flex-direction: column;
+	border: solid 2px white;
+}
+
+.group2:hover {
+	text-decoration: underline;
+}
+
+.collSubGroup2 {
+	width: 92%;
+	margin: 0vh 2vw 0vh 2vw;
+	padding: 0vh 2vw 0vh 2vw;
+	display: none;
+	border: solid 1px red;
+}
+
+.collGroupContainer3{
+	display: flex;
+	width: 98vw;
+	flex-direction: column;
+	border: solid 2px white;
+}
+
+.group3:hover {
+	text-decoration: underline;
+}
+
+.collSubGroup3 {
+	width: 92%;
+	margin: 0vh 2vw 0vh 2vw;
+	padding: 0vh 2vw 0vh 2vw;
+	display: none;
+	border: solid 1px red;
+}
+
+.btnArea {
+	margin-top: 50vh;
+	height: 15vh;
+	width: 25vw;
+	background-color: green;
+}
+
+
+
+
+
+
+

@@ -17,9 +17,6 @@
 .btnArea {
 	height: 15vh;
 	width: 25vw;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	background-color: green;
 }
 
