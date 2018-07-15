@@ -6,6 +6,7 @@
 	background-image: url("bck.jpg");
 	height: 97vh;
 	box-sizing: border-box;
+	border-radius: 10px;
 	border: solid 5px blue;
 	display: flex;
 	flex-direction: row;
@@ -18,12 +19,14 @@
 	height: 15vh;
 	width: 25vw;
 	background-color: green;
+	border-radius: 10px;
 }
 
 .area {
 	height: 15vh;
 	width: 25vw;
 	border: solid 5px black;
+	border-radius: 10px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -38,71 +41,70 @@
 	left:15vw;
 	height: 60vh;
 	width: 60vw;
-	border: solid 5px black;
+	border: solid 1px black;
+	border-radius: 15px;
 }
 
 .modalHeading {
 	height: 20%;
-	border: solid 5px blue;
-	
 }
 .heading{
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 100%;
+	margin: 0vh 2vw 0vh 2vw;
+	padding-top: 3vh;
+	height: 50%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .heading:after  {
-	width: 80%;
-	height: 2px;
+	width: 100%;
+	height: 1px;
 	content: "";
 	background-color: red;
-	//left: 50%;
-	transform: translate(10%,0);
+	transform: translate(-3.4%,0);
 	position: absolute;
-	top: 20.8%;
+	top: 20%;
 }
 .modalContent {
-	height: 50%;
-	border: solid 5px blue;
+	padding: 0vh 2vw 0vh 2vw;
+	height: 59%;
 	
 }
 .modalContent:after  {
-	width: 80%;
+	width: 100%;
 	height: 1px;
 	content: "";
 	background-color: black;
-	//left: 50%;
-	transform: translate(10%,0);
+	transform: translate(-3.4%,0);
 	position: absolute;
-	top: 65%;
+	top: 79.5%;
 }
 .modalFooter {
 	height: 20%;
-	border: solid 5px blue;
 	display: flex;
 	flex-direction: row-reverse;
-	
 }
 .footerContainer{
-	margin-left: 10px;
-	width: 95%;
+	margin: 0vh 2vw 0vh 2vw;
 	width: 23%;
-	height: 100%;
+	height: 60%;
 	display: flex;
-	flex-direction: row-reverse;
-	border: solid 5px red;
 }
 .footer{
-	//margin-left: 10px;
+	margin-top: 1.5vh;
 	width: 95%;
-	height: 100%;
+	height: 60%;
 	display: flex;
-	//flex-direction: row-reverse;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.close {
+	border-radius: 10px;
+}
+.saveChange {
+	border-radius: 10px;
 }
 
 
