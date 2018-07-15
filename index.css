@@ -3,7 +3,7 @@
 }
 
 .screenSize {
-	background-color: #cc99ff;
+	background-image: url("bck.jpg");
 	height: 97vh;
 	box-sizing: border-box;
 	border: solid 5px blue;

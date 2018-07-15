@@ -1,33 +1,34 @@
 :root {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .screenSize {
-	background-color: #cc99ff;
+	background-image: url("bck.jpg");
 	height: 97vh;
 	box-sizing: border-box;
 	border: solid 5px blue;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 }
 
 .collGroupContainer1{
+	margin-top: 1vh;
 	display: flex;
 	width: 98vw;
 	flex-direction: column;
-	border: solid 2px white;
 }
 
 .collGroup {
 	height: 8vh;
 	width: 92%;
-	margin: 1vh 2vw 0vh 2vw;
+	margin: 0vh 2vw 0vh 2vw;
 	padding: 0vh 2vw 0vh 2vw;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	border: solid 1px blue;
+}
+
+.group1:hover {
+	text-decoration: underline;
+	color: white;
 }
 
 .collSubGroup1 {
@@ -42,11 +43,11 @@
 	display: flex;
 	width: 98vw;
 	flex-direction: column;
-	border: solid 2px white;
 }
 
 .group2:hover {
 	text-decoration: underline;
+	color: white;
 }
 
 .collSubGroup2 {
@@ -61,11 +62,11 @@
 	display: flex;
 	width: 98vw;
 	flex-direction: column;
-	border: solid 2px white;
 }
 
 .group3:hover {
 	text-decoration: underline;
+	color: white;
 }
 
 .collSubGroup3 {
@@ -76,11 +77,22 @@
 	border: solid 1px red;
 }
 
+.location{
+	margin: 1vh;
+	height: 8vh;
+	width: 99%;
+	display: flex;
+	justify-content: center;
+}
+
 .btnArea {
-	margin-top: 50vh;
-	height: 15vh;
+	border: solid 1px red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 	width: 25vw;
-	background-color: green;
+	background-color: white;
 }
 
 
