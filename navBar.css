@@ -13,26 +13,21 @@
 .navContainer {
 	background-color: #FF7F50;
 	height: 10vh;
-	border-radius: 10px;
-	border: solid 1px red;
+	border-radius: 5px;
+	border: solid 3px red;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	//flex-wrap: wrap;
 }
 
 .section1 {
-	//margin: 0vw 2vw 0vw 0vw;
 	padding: 1vh 0vw 0vw 0vw;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	border: solid 1px red;
 }
 
 .section2 {
-	border: solid 1px red;
-	//margin: 0vw 7vw 0vw 2vw;
 	padding: 1vh 0vw 0vw 0vw;
 	display: flex;
 	flex-direction: row;
@@ -51,7 +46,6 @@
 	align-items: center;
 	justify-content: space-between;
 	border-radius: 10px;
-	border: solid 1px black;
 }
 
 .pageTitle:hover {
@@ -66,7 +60,6 @@
 	display: flex;
 	align-items: center;
 	border-radius: 10px;
-	border: solid 1px black;
 }
 
 .home:hover {
@@ -81,7 +74,6 @@
 	display: flex;
 	align-items: center;
 	border-radius: 10px;
-	border: solid 1px black;
 }
 
 .search {
@@ -92,7 +84,6 @@
 	display: flex;
 	align-items: center;
 	border-radius: 10px;
-	border: solid 1px black;
 }
 
 .search:hover {
@@ -123,6 +114,7 @@
 	height: 15vh;
 	width: 25vw;
 	background-color: white;
+	border-radius: 10px;
 }
 
 
