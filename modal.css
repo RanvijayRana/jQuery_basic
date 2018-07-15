@@ -88,7 +88,7 @@
 	flex-direction: row-reverse;
 }
 .footerContainer{
-	margin: 0vh 2vw 0vh 2vw;
+	margin: 1vh 2vw 0vh 2vw;
 	width: 23%;
 	height: 60%;
 	display: flex;
@@ -106,6 +106,13 @@
 }
 .saveChange {
 	border-radius: 10px;
+}
+
+@media screen and (max-width : 767px){
+	.footerContainer{
+		width: 65%;
+		height: 80%;
+	}
 }
 
 
