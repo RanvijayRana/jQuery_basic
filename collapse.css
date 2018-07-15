@@ -16,7 +16,6 @@
 	display: flex;
 	width: 98vw;
 	flex-direction: column;
-	
 }
 
 .collGroup1 {
@@ -28,6 +27,7 @@
 	align-items: center;border: solid 1px blue;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	background-color: #339966;
 }
 
 .group1:hover {
@@ -39,6 +39,7 @@
 	width: 92%;
 	margin: 0vh 2vw 0vh 2vw;
 	padding: 0vh 2vw 0vh 2vw;
+	background-color: #b3ecff;
 	display: none;
 	border: solid 1px blue;
 }
@@ -56,6 +57,7 @@
 	padding: 0vh 2vw 0vh 2vw;
 	display: flex;
 	align-items: center;border: solid 1px blue;
+	background-color: #339966;
 }
 
 .group2:hover {
@@ -69,6 +71,7 @@
 	padding: 0vh 2vw 0vh 2vw;
 	display: none;
 	border: solid 1px blue;
+	background-color: #b3ecff;
 }
 
 .collGroupContainer3{
@@ -86,6 +89,7 @@
 	align-items: center;border: solid 1px blue;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+	background-color: #339966;
 }
 
 .group3:hover {
@@ -99,6 +103,7 @@
 	padding: 0vh 2vw 0vh 2vw;
 	display: none;
 	border: solid 1px blue;
+	background-color: #b3ecff;
 }
 
 .location{
